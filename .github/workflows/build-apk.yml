@@ -26,7 +26,7 @@ jobs:
 
       - name: Extract project
         run: |
-          unzip -q "rihla68_android_project_updated (4).zip" -d extracted
+          unzip -q "rihla68_android_v1_1_development.zip" -d extracted
           test -f extracted/rihla68_android/app/build.gradle
 
       - name: Build APK
